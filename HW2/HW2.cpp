@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+//under HW2 folder
 //g++ -I../Eigen HW2.cpp -o HW2
 #include <Eigen/Core>
 
@@ -50,10 +51,11 @@ Eigen::VectorXd ConjugateGradientQuadratic(
 
 int main(){
     Eigen::Matrix2d Q;
-    Q << 2.5, -1.5, -1.5, 1;
+    Q << 5, -3, -3, 2;
     Eigen::Vector2d b;
-    b << 0, -2;
+    b << 0, -1;
     Eigen::Vector2d initial;
+    // xQx/2+bx
     initial<<0,0;
     Eigen::Vector2d x = ConjugateGradientQuadratic(&Quadratic,&dQuadratic,Q,b,initial);
     std::cout<<"x* = "<<std::endl<<x;
