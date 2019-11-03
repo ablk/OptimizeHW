@@ -21,7 +21,7 @@ Eigen::MatrixXd GramSchmit(const Eigen::MatrixXd &Q){
 }
 
 double Quadratic(const Eigen::VectorXd &x,const Eigen::MatrixXd &Q, const Eigen::VectorXd &b){
-    return x.dot(Q*x)+x.dot(b);
+    return x.dot(Q*x)/2+x.dot(b);
 }
 Eigen::VectorXd dQuadratic(const Eigen::VectorXd &x,const Eigen::MatrixXd &Q, const Eigen::VectorXd &b){
     return Q*x+b;
