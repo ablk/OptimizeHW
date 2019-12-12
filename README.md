@@ -17,5 +17,5 @@ where lambda is a float number
 
 ### plot:
 use plotHW3.m,
-should modified file number for different lambda
+should modified file name for different lambda
 
