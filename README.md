@@ -16,6 +16,6 @@ g++ -I../Eigen HW3.cpp -o HW3
 where lambda is a float number
 
 ### plot:
-use plotHW3.m
+use plotHW3.m,
 should modified file number for different lambda
 
