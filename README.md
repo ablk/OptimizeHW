@@ -1,13 +1,13 @@
 # OptimizeHW
 
 ## HW3
-build:
+### build:
 
 ```
 g++ -I../Eigen HW3.cpp -o HW3
 ```
 
-execute:
+### execute:
 
 ```
 ./HW3 lambda
@@ -15,7 +15,7 @@ execute:
 
 where lambda is a float number
 
-plot:
+### plot:
 use plotHW3.m
 should modified file number for different lambda
 
