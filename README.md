@@ -3,15 +3,16 @@
 ## HW3
 build:
 
-'''
+```
 g++ -I../Eigen HW3.cpp -o HW3
-'''
+```
 
 execute:
 
-'''
+```
 ./HW3 lambda
-'''
+```
+
 where lambda is a float number
 
 plot:
