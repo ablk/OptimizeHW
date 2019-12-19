@@ -31,6 +31,7 @@ Eigen::VectorXd Decode_1_2_b(const Eigen::VectorXd &x){
     Eigen::VectorXd r(x.size());
     for(int i=0;i<x.size();i++){
         r(i)=tan(x(i));
+        //atan project infinite range to +-pi/2, so use tan to decode
     }
     return r;
 }
