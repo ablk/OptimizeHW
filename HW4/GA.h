@@ -75,7 +75,7 @@ void GA::Solve(int Iteration,bool verbose){
 
         Mutation();
         
-        if(i%10==0 && verbose){
+        if(verbose){
             std::cout<<"iteration="<<i<<std::endl;
             ShowResult();
         }

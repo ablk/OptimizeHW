@@ -61,7 +61,7 @@ int main(int argc, char * argv[])
                 MinX,MaxX,
                 CrossOverRate, CrossOverAlpha,
                 MutationRate, MutationParam);
-        ga.Solve(100,true);
+        ga.Solve(20,true);
         ga.ShowResult();
     }
     else if(p==2){
@@ -84,7 +84,7 @@ int main(int argc, char * argv[])
                 MinX,MaxX,
                 CrossOverRate, CrossOverAlpha,
                 MutationRate, MutationParam);
-        ga.Solve(100,true);
+        ga.Solve(20,true);
         ga.ShowResult();
     }
     else{
@@ -108,7 +108,7 @@ int main(int argc, char * argv[])
                 CrossOverRate, CrossOverAlpha,
                 MutationRate, MutationParam);
         ga.SetDecoder(Decode_1_2_b);
-        ga.Solve(100,true);
+        ga.Solve(20,true);
         ga.ShowResult();
     }
 }
